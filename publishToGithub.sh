@@ -2,6 +2,10 @@
 #!/bin/bash
 echo "Building ..."
 git checkout source
+echo "\tinstalling dependencies"
+bundle install
+npm install
+bower install
 echo "\tcleanup"
 git branch -D master
 git push origin --delete master
