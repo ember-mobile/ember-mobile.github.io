@@ -8,4 +8,4 @@ p
     ' swipe from left to right
   ' to open the side panel.
 .docs-demo-device
-  iframe src="http://ember-mobile.github.io/ember-cli-framework7/sample-app/index.html" width="320" height="548" frameborder="0"
+  iframe src="http://ember-mobile.github.io/ember-cli-framework7/" width="320" height="548" frameborder="0"
