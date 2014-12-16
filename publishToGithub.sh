@@ -13,8 +13,9 @@ git checkout -b master
 echo "\tbuilding"
 ember build --environment production
 echo "\tcleanup"
-git rm -rf app addon config tests
+git rm -rf app config tests vendor
 git rm -rf Brocfile.js bower.json package.json testem.json
+git rm -rf publishToGithub.sh
 git rm -rf .bowerrc .editorconfig .jshintrc .travis.yml
 mv dist/* .
 rm -rf dist
